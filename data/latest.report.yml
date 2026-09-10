@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.74.0"
   latestRelease: "v1.74.0"
   latestPrerelease: "v1.63.0a0"
-  collectedAt: 2026-09-10T21:49:38Z
+  collectedAt: 2026-09-10T22:15:33Z
 timeline:
   created: 2013-08-27
   lastCommit: 2026-09-05
@@ -84,7 +84,7 @@ total:
   commit: 5049
 ---
 path: /home/runner/.x-repo/github.com/tmux-python/tmuxp
-collectedAt: 2026-09-10T21:49:40Z
+collectedAt: 2026-09-10T22:15:37Z
 loc:
   Python:
     code: 22530
