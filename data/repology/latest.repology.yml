@@ -1,44 +1,29 @@
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: pkgsrc_2026_2
+  srcname: misc/tmuxp
+  binname: tmuxp
+  visiblename: misc/tmuxp
+  version: 1.67.0
+  origversion: null
+  status: outdated
+  summary: Session manager for tmux (meta package)
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
   srcname: tmuxp
   binnames:
     - tmuxp
     - python3-tmuxp
   visiblename: tmuxp
-  version: 1.7.0
-  origversion: 1.7.0-1
+  version: 1.55.0
+  origversion: 1.55.0-1
   status: outdated
   maintainers:
     - seb@debian.org
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: tmuxp
-  binnames:
-    - tmuxp
-    - python3-tmuxp
-  visiblename: tmuxp
-  version: 1.74.0
-  origversion: 1.74.0-1
-  status: newest
-  maintainers:
-    - seb@debian.org
-  categories:
-    - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: tmuxp
-  binnames:
-    - tmuxp
-    - python-tmuxp
-    - python3-tmuxp
-  visiblename: tmuxp
-  version: 1.5.0a
-  origversion: 1.5.0a-1
-  status: outdated
-  maintainers:
-    - seb@debian.org
 - repo: arch
   subrepo: extra
   srcname: tmuxp
@@ -131,6 +116,47 @@
     - seb@debian.org
   categories:
     - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: tmuxp
+  binnames:
+    - tmuxp
+    - python-tmuxp
+    - python3-tmuxp
+  visiblename: tmuxp
+  version: 1.5.0a
+  origversion: 1.5.0a-1
+  status: outdated
+  maintainers:
+    - seb@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: tmuxp
+  binnames:
+    - tmuxp
+    - python3-tmuxp
+  visiblename: tmuxp
+  version: 1.7.0
+  origversion: 1.7.0-1
+  status: outdated
+  maintainers:
+    - seb@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: tmuxp
+  binnames:
+    - tmuxp
+    - python3-tmuxp
+  visiblename: tmuxp
+  version: 1.74.0
+  origversion: 1.74.0-1
+  status: newest
+  maintainers:
+    - seb@debian.org
+  categories:
+    - misc
 - repo: epel_9
   srcname: python-tmuxp
   binnames:
@@ -158,17 +184,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: nix_stable_25_11
-  srcname: tmuxp
-  visiblename: tmuxp
-  version: 1.56.0
-  origversion: null
-  status: outdated
-  summary: tmux session manager
-  maintainers:
-    - otavio.salvador@ossystems.com.br
-  licenses:
-    - MIT
 - repo: fedora_40
   subrepo: release
   srcname: python-tmuxp
@@ -291,20 +306,6 @@
     - MIT
   categories:
     - app-misc
-- repo: solus
-  srcname: tmuxp
-  binname: tmuxp
-  visiblename: tmuxp
-  version: 1.74.0
-  origversion: null
-  status: newest
-  summary: tmux session manager
-  maintainers:
-    - maddock.evan@vivaldi.net
-  licenses:
-    - MIT
-  categories:
-    - system.utils
 - repo: gentoo
   srcname: app-misc/tmuxp
   visiblename: app-misc/tmuxp
@@ -521,6 +522,18 @@
     - MIT
   categories:
     - app-misc
+- repo: pkgsrc_current
+  srcname: misc/py-tmuxp
+  binname: py313-tmuxp
+  visiblename: misc/py-tmuxp
+  version: 1.74.0
+  origversion: null
+  status: newest
+  summary: Session manager for tmux
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - misc
 - repo: liguros_develop
   srcname: app-misc/tmuxp
   visiblename: app-misc/tmuxp
@@ -646,8 +659,8 @@
     - python
 - repo: macports
   srcname: python/py-tmuxp
-  binname: py311-tmuxp
-  visiblename: py311-tmuxp
+  binname: py312-tmuxp
+  visiblename: py312-tmuxp
   version: 1.64.0
   origversion: null
   status: outdated
@@ -662,8 +675,8 @@
     - python
 - repo: macports
   srcname: python/py-tmuxp
-  binname: py312-tmuxp
-  visiblename: py312-tmuxp
+  binname: py311-tmuxp
+  visiblename: py311-tmuxp
   version: 1.64.0
   origversion: null
   status: outdated
@@ -774,20 +787,17 @@
     - otavio.salvador@ossystems.com.br
   licenses:
     - MIT
-- repo: trisquel_10_0
-  subrepo: nabia/main
+- repo: nix_stable_25_11
   srcname: tmuxp
-  binnames:
-    - tmuxp
-    - python3-tmuxp
   visiblename: tmuxp
-  version: 1.5.4
-  origversion: 1.5.4-1
+  version: 1.56.0
+  origversion: null
   status: outdated
+  summary: tmux session manager
   maintainers:
-    - seb@debian.org
-  categories:
-    - universe/misc
+    - otavio.salvador@ossystems.com.br
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: tmuxp
   visiblename: tmuxp
@@ -860,20 +870,6 @@
     - seb@debian.org
   categories:
     - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: tmuxp
-  binnames:
-    - tmuxp
-    - python3-tmuxp
-  visiblename: tmuxp
-  version: 1.55.0
-  origversion: 1.55.0-1
-  status: outdated
-  maintainers:
-    - seb@debian.org
-  categories:
-    - misc
 - repo: pkgsrc_2026_2
   srcname: misc/py-tmuxp
   binname: py313-tmuxp
@@ -881,30 +877,6 @@
   version: 1.67.0
   origversion: 1.67.0nb1
   status: outdated
-  summary: Session manager for tmux
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - misc
-- repo: pkgsrc_2026_2
-  srcname: misc/tmuxp
-  binname: tmuxp
-  visiblename: misc/tmuxp
-  version: 1.67.0
-  origversion: null
-  status: outdated
-  summary: Session manager for tmux (meta package)
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - misc
-- repo: pkgsrc_current
-  srcname: misc/py-tmuxp
-  binname: py313-tmuxp
-  visiblename: misc/py-tmuxp
-  version: 1.74.0
-  origversion: null
-  status: newest
   summary: Session manager for tmux
   maintainers:
     - pkgsrc-users@netbsd.org
@@ -1025,6 +997,34 @@
     - fourtysixandtwo@sliderr.net
   categories:
     - system
+- repo: solus
+  srcname: tmuxp
+  binname: tmuxp
+  visiblename: tmuxp
+  version: 1.74.0
+  origversion: null
+  status: newest
+  summary: tmux session manager
+  maintainers:
+    - maddock.evan@vivaldi.net
+  licenses:
+    - MIT
+  categories:
+    - system.utils
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: tmuxp
+  binnames:
+    - tmuxp
+    - python3-tmuxp
+  visiblename: tmuxp
+  version: 1.5.4
+  origversion: 1.5.4-1
+  status: outdated
+  maintainers:
+    - seb@debian.org
+  categories:
+    - universe/misc
 - repo: trisquel_11_0
   subrepo: aramo/main
   srcname: tmuxp
