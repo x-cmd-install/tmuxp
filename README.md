@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 2 | 2 | 0 | 0 | 16 |
-| last60d | 2026-07-12 | 0 | 4 | 4 | 1 | 0 | 69 |
-| 90d | 2026-06-12 | 5 | 13 | 12 | 5 | 3 | 172 |
-| last180d | 2026-03-14 | 8 | 25 | 19 | 6 | 11 | 292 |
-| 360d | 2025-09-15 | 26 | 53 | 21 | 8 | 15 | 694 |
-| last720d | 2024-09-20 | 37 | 71 | 22 | 10 | 28 | 971 |
+| 30d | 2026-08-12 | 0 | 2 | 2 | 0 | 0 | 16 |
+| last60d | 2026-07-13 | 0 | 4 | 3 | 1 | 0 | 69 |
+| 90d | 2026-06-13 | 5 | 13 | 12 | 5 | 3 | 172 |
+| last180d | 2026-03-15 | 8 | 24 | 19 | 6 | 11 | 292 |
+| 360d | 2025-09-16 | 26 | 53 | 21 | 8 | 15 | 694 |
+| last720d | 2024-09-21 | 37 | 71 | 22 | 10 | 28 | 971 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for tmuxp lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:15:52Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T05:43:06Z._
