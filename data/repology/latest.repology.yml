@@ -1,29 +1,16 @@
-- repo: pkgsrc_2026_2
-  srcname: misc/tmuxp
-  binname: tmuxp
-  visiblename: misc/tmuxp
-  version: 1.67.0
-  origversion: null
-  status: outdated
-  summary: Session manager for tmux (meta package)
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: tmuxp
+- repo: epel_9
+  srcname: python-tmuxp
   binnames:
-    - tmuxp
     - python3-tmuxp
-  visiblename: tmuxp
-  version: 1.55.0
-  origversion: 1.55.0-1
+  visiblename: python-tmuxp
+  version: 1.47.0
+  origversion: 1.47.0-2.el9
   status: outdated
-  maintainers:
-    - seb@debian.org
+  summary: Tmux session manager
+  licenses:
+    - MIT
   categories:
-    - misc
+    - Unspecified
 - repo: arch
   subrepo: extra
   srcname: tmuxp
@@ -157,19 +144,17 @@
     - seb@debian.org
   categories:
     - misc
-- repo: epel_9
-  srcname: python-tmuxp
-  binnames:
-    - python3-tmuxp
-  visiblename: python-tmuxp
+- repo: nix_stable_24_05
+  srcname: tmuxp
+  visiblename: tmuxp
   version: 1.47.0
-  origversion: 1.47.0-2.el9
+  origversion: null
   status: outdated
-  summary: Tmux session manager
+  summary: tmux session manager
+  maintainers:
+    - otavio.salvador@ossystems.com.br
   licenses:
     - MIT
-  categories:
-    - Unspecified
 - repo: fedora_39
   subrepo: release
   srcname: python-tmuxp
@@ -240,6 +225,18 @@
     - MIT
   categories:
     - Unspecified
+- repo: pkgsrc_current
+  srcname: misc/tmuxp
+  binname: tmuxp
+  visiblename: misc/tmuxp
+  version: 1.74.0
+  origversion: null
+  status: newest
+  summary: Session manager for tmux (meta package)
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - misc
 - repo: fedora_44
   subrepo: release
   srcname: python-tmuxp
@@ -522,18 +519,6 @@
     - MIT
   categories:
     - app-misc
-- repo: pkgsrc_current
-  srcname: misc/py-tmuxp
-  binname: py313-tmuxp
-  visiblename: misc/py-tmuxp
-  version: 1.74.0
-  origversion: null
-  status: newest
-  summary: Session manager for tmux
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - misc
 - repo: liguros_develop
   srcname: app-misc/tmuxp
   visiblename: app-misc/tmuxp
@@ -547,6 +532,18 @@
     - MIT
   categories:
     - app-misc
+- repo: pkgsrc_2026_2
+  srcname: misc/tmuxp
+  binname: tmuxp
+  visiblename: misc/tmuxp
+  version: 1.67.0
+  origversion: null
+  status: outdated
+  summary: Session manager for tmux (meta package)
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - misc
 - repo: liguros_develop
   srcname: app-misc/tmuxp
   visiblename: app-misc/tmuxp
@@ -659,22 +656,6 @@
     - python
 - repo: macports
   srcname: python/py-tmuxp
-  binname: py312-tmuxp
-  visiblename: py312-tmuxp
-  version: 1.64.0
-  origversion: null
-  status: outdated
-  summary: tmux session manager.
-  maintainers:
-    - egorenar@github
-    - judaew@macports
-    - judaew@github
-  licenses:
-    - MIT
-  categories:
-    - python
-- repo: macports
-  srcname: python/py-tmuxp
   binname: py311-tmuxp
   visiblename: py311-tmuxp
   version: 1.64.0
@@ -689,6 +670,34 @@
     - MIT
   categories:
     - python
+- repo: macports
+  srcname: python/py-tmuxp
+  binname: py312-tmuxp
+  visiblename: py312-tmuxp
+  version: 1.64.0
+  origversion: null
+  status: outdated
+  summary: tmux session manager.
+  maintainers:
+    - egorenar@github
+    - judaew@macports
+    - judaew@github
+  licenses:
+    - MIT
+  categories:
+    - python
+- repo: pkgsrc_current
+  srcname: misc/py-tmuxp
+  binname: py313-tmuxp
+  visiblename: misc/py-tmuxp
+  version: 1.74.0
+  origversion: null
+  status: newest
+  summary: Session manager for tmux
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - misc
 - repo: macports
   srcname: python/py-tmuxp
   binname: py313-tmuxp
@@ -752,17 +761,6 @@
   origversion: 1.74.0-1
   status: newest
   summary: Tmux session manager built on libtmux
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: tmuxp
-  visiblename: tmuxp
-  version: 1.47.0
-  origversion: null
-  status: outdated
-  summary: tmux session manager
-  maintainers:
-    - otavio.salvador@ossystems.com.br
   licenses:
     - MIT
 - repo: nix_stable_24_11
@@ -870,6 +868,20 @@
     - seb@debian.org
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: tmuxp
+  binnames:
+    - tmuxp
+    - python3-tmuxp
+  visiblename: tmuxp
+  version: 1.55.0
+  origversion: 1.55.0-1
+  status: outdated
+  maintainers:
+    - seb@debian.org
+  categories:
+    - misc
 - repo: pkgsrc_2026_2
   srcname: misc/py-tmuxp
   binname: py313-tmuxp
@@ -878,18 +890,6 @@
   origversion: 1.67.0nb1
   status: outdated
   summary: Session manager for tmux
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - misc
-- repo: pkgsrc_current
-  srcname: misc/tmuxp
-  binname: tmuxp
-  visiblename: misc/tmuxp
-  version: 1.74.0
-  origversion: null
-  status: newest
-  summary: Session manager for tmux (meta package)
   maintainers:
     - pkgsrc-users@netbsd.org
   categories:
