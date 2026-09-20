@@ -4,7 +4,7 @@
 
 🖥️ Session manager for tmux, built on libtmux.
 
-![tmuxp](https://repo.x-cmd.io/tmuxp.svg)
+[![x-cmd/install — tmuxp Code Quality Monitoring Repo Card](https://repo.x-cmd.io/tmuxp.svg)](https://x-cmd.com/install/tmuxp)
 
 ## Install
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,583 · **Forks**: 248 · **Open issues**: 391 · **Contributors**: 67
+- **Stars**: 4,582 · **Forks**: 248 · **Open issues**: 391 · **Contributors**: 67
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 1 | 0 | 0 | 0 | 18 |
-| last60d | 2026-07-20 | 0 | 4 | 1 | 1 | 0 | 69 |
-| 90d | 2026-06-20 | 4 | 12 | 9 | 5 | 2 | 170 |
-| last180d | 2026-03-22 | 8 | 24 | 16 | 6 | 8 | 280 |
-| 360d | 2025-09-23 | 26 | 53 | 19 | 8 | 15 | 696 |
-| last720d | 2024-09-28 | 37 | 71 | 20 | 10 | 28 | 974 |
+| 30d | 2026-08-21 | 0 | 1 | 0 | 0 | 0 | 18 |
+| last60d | 2026-07-22 | 0 | 4 | 1 | 1 | 0 | 69 |
+| 90d | 2026-06-22 | 4 | 12 | 9 | 5 | 2 | 170 |
+| last180d | 2026-03-24 | 8 | 23 | 16 | 6 | 8 | 280 |
+| 360d | 2025-09-25 | 26 | 53 | 19 | 8 | 15 | 696 |
+| last720d | 2024-09-30 | 37 | 71 | 20 | 10 | 28 | 973 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for tmuxp lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:58:41Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:59:31Z._
