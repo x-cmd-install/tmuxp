@@ -4,7 +4,7 @@
 
 🖥️ Session manager for tmux, built on libtmux.
 
-[![x-cmd/install — tmuxp Code Quality Monitoring Repo Card](https://repo.x-cmd.io/tmuxp.svg?lang=zh)](https://x-cmd.com/install/tmuxp)
+[![x-cmd/install — tmuxp Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/tmuxp.svg?lang=zh)](https://x-cmd.com/install/tmuxp)
 
 ## 安装
 
@@ -47,7 +47,7 @@ x install tmuxp
 
 ## 流行度
 
-- **Star**: 4,584 · **Fork**: 248 · **开放 issue**: 391 · **贡献者**: 67
+- **Star**: 4,585 · **Fork**: 248 · **开放 issue**: 391 · **贡献者**: 67
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install tmuxp
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 0 | 0 | 0 | 14 |
-| last60d | 2026-07-24 | 0 | 4 | 1 | 1 | 0 | 32 |
-| 90d | 2026-06-24 | 4 | 12 | 9 | 5 | 2 | 139 |
-| last180d | 2026-03-26 | 8 | 23 | 16 | 6 | 8 | 275 |
-| 360d | 2025-09-27 | 26 | 53 | 19 | 8 | 15 | 697 |
-| last720d | 2024-10-02 | 37 | 71 | 20 | 10 | 28 | 976 |
+| 30d | 2026-08-24 | 0 | 0 | 0 | 0 | 0 | 14 |
+| last60d | 2026-07-25 | 0 | 3 | 1 | 0 | 0 | 32 |
+| 90d | 2026-06-25 | 4 | 12 | 8 | 5 | 2 | 139 |
+| last180d | 2026-03-27 | 8 | 23 | 16 | 6 | 8 | 275 |
+| 360d | 2025-09-28 | 26 | 53 | 19 | 8 | 15 | 697 |
+| last720d | 2024-10-03 | 37 | 71 | 20 | 10 | 28 | 976 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ tmuxp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:18:53Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:20:51Z._
