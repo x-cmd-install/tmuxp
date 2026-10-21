@@ -26,13 +26,13 @@ x install tmuxp
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5.4 / 10**
+总评分: **4.6 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 0/29 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+- **SAST** (0/10) — no SAST tool detected
 
 ## 源代码
 
@@ -47,7 +47,7 @@ x install tmuxp
 
 ## 流行度
 
-- **Star**: 4,588 · **Fork**: 259 · **开放 issue**: 394 · **贡献者**: 66
+- **Star**: 4,588 · **Fork**: 248 · **开放 issue**: 394 · **贡献者**: 66
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install tmuxp
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 0 | 0 | 5 | 0 | 3 | 18 |
-| last60d | 2026-08-21 | 0 | 1 | 5 | 0 | 3 | 32 |
-| 90d | 2026-07-22 | 0 | 4 | 6 | 1 | 3 | 50 |
-| last180d | 2026-04-23 | 8 | 19 | 21 | 6 | 8 | 259 |
-| 360d | 2025-10-25 | 26 | 53 | 24 | 8 | 18 | 701 |
-| last720d | 2024-10-30 | 37 | 71 | 25 | 10 | 31 | 984 |
+| 30d | 2026-09-21 | 0 | 0 | 5 | 0 | 3 | 18 |
+| last60d | 2026-08-22 | 0 | 0 | 5 | 0 | 3 | 32 |
+| 90d | 2026-07-23 | 0 | 4 | 6 | 1 | 3 | 50 |
+| last180d | 2026-04-24 | 8 | 19 | 21 | 6 | 8 | 259 |
+| 360d | 2025-10-26 | 26 | 53 | 24 | 8 | 17 | 701 |
+| last720d | 2024-10-31 | 37 | 71 | 25 | 10 | 31 | 984 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ tmuxp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261020.yml` · 2026-10-20T05:40:47Z._
+_数据快照: `data/card/261021.yml` · 2026-10-21T05:37:48Z._
