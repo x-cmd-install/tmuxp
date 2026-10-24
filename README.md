@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,590 · **Forks**: 248 · **Open issues**: 394 · **Contributors**: 66
+- **Stars**: 4,589 · **Forks**: 248 · **Open issues**: 394 · **Contributors**: 66
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 0 | 0 | 5 | 0 | 3 | 18 |
-| last60d | 2026-08-24 | 0 | 0 | 5 | 0 | 3 | 32 |
-| 90d | 2026-07-25 | 0 | 3 | 6 | 0 | 3 | 50 |
-| last180d | 2026-04-26 | 8 | 19 | 21 | 6 | 8 | 259 |
-| 360d | 2025-10-28 | 26 | 53 | 24 | 8 | 17 | 701 |
-| last720d | 2024-11-02 | 37 | 71 | 25 | 10 | 31 | 984 |
+| 30d | 2026-09-24 | 0 | 0 | 5 | 0 | 3 | 18 |
+| last60d | 2026-08-25 | 0 | 0 | 5 | 0 | 3 | 32 |
+| 90d | 2026-07-26 | 0 | 2 | 5 | 0 | 3 | 50 |
+| last180d | 2026-04-27 | 8 | 19 | 21 | 6 | 8 | 259 |
+| 360d | 2025-10-29 | 26 | 53 | 24 | 8 | 17 | 701 |
+| last720d | 2024-11-03 | 37 | 71 | 25 | 10 | 31 | 983 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for tmuxp lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:38:34Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:24:03Z._
