@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,591 · **Forks**: 248 · **Open issues**: 394 · **Contributors**: 66
+- **Stars**: 4,592 · **Forks**: 248 · **Open issues**: 394 · **Contributors**: 66
 
 ## Totals (cumulative)
 
@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 2 | 2 | 3 | 1 | 2 | 35 |
-| last60d | 2026-08-29 | 2 | 2 | 4 | 1 | 2 | 50 |
-| 90d | 2026-07-30 | 2 | 4 | 4 | 1 | 2 | 68 |
-| last180d | 2026-05-01 | 10 | 21 | 20 | 7 | 7 | 271 |
-| 360d | 2025-11-02 | 27 | 53 | 23 | 9 | 16 | 694 |
-| last720d | 2024-11-07 | 39 | 73 | 24 | 11 | 30 | 1005 |
+| 30d | 2026-09-29 | 2 | 2 | 3 | 1 | 2 | 35 |
+| last60d | 2026-08-30 | 2 | 2 | 4 | 1 | 2 | 50 |
+| 90d | 2026-07-31 | 2 | 4 | 4 | 1 | 2 | 68 |
+| last180d | 2026-05-02 | 10 | 21 | 20 | 7 | 7 | 271 |
+| 360d | 2025-11-03 | 27 | 53 | 23 | 9 | 16 | 694 |
+| last720d | 2024-11-08 | 39 | 73 | 24 | 11 | 30 | 1005 |
 
 ## Distribution status
 
-Reported by **93** distros on [repology.org](https://repology.org/project/tmuxp). **4** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
+Reported by **93** distros on [repology.org](https://repology.org/project/tmuxp). **7** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -75,10 +75,10 @@ Reported by **93** distros on [repology.org](https://repology.org/project/tmuxp)
 | Debian 13 | `1.55.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.62.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.38.0` | ⚠️ outdated |
-| Arch | `1.74.0` | ⚠️ outdated |
+| Arch | `1.76.0` | ✅ latest |
 | Homebrew | `1.76.0` | ✅ latest |
 | Fedora rawhide | `1.74.0` | ⚠️ outdated |
-| Nix unstable | `1.74.0` | ⚠️ outdated |
+| Nix unstable | `1.76.0` | ✅ latest |
 | Void | `1.47.0` | ⚠️ outdated |
 
 ## Improve this data
@@ -90,4 +90,4 @@ Install metadata for tmuxp lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261028.yml` · 2026-10-28T06:29:58Z._
+_Snapshot: `data/card/261029.yml` · 2026-10-29T06:43:47Z._
