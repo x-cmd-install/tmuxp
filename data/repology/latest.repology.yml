@@ -1,51 +1,26 @@
-- repo: parabola
-  subrepo: extra
-  srcname: tmuxp
-  binname: tmuxp
-  visiblename: tmuxp
-  version: 1.76.0
-  origversion: 1.76.0-1
-  status: newest
-  summary: Tmux session manager built on libtmux
-  licenses:
-    - MIT
-- repo: pardus_21
+- repo: kali_rolling
   subrepo: main
   srcname: tmuxp
   binnames:
     - tmuxp
     - python3-tmuxp
   visiblename: tmuxp
-  version: 1.7.0
-  origversion: 1.7.0-1
+  version: 1.74.0
+  origversion: 1.74.0-1
   status: outdated
   maintainers:
     - seb@debian.org
   categories:
     - misc
-- repo: parrot
-  subrepo: parrot-updates/main
+- repo: debian_14
+  subrepo: forky/main
   srcname: tmuxp
   binnames:
     - tmuxp
     - python3-tmuxp
   visiblename: tmuxp
-  version: 1.55.0
-  origversion: 1.55.0-1
-  status: outdated
-  maintainers:
-    - seb@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: tmuxp
-  binnames:
-    - tmuxp
-    - python3-tmuxp
-  visiblename: tmuxp
-  version: 1.55.0
-  origversion: 1.55.0-1
+  version: 1.74.0
+  origversion: 1.74.0-1
   status: outdated
   maintainers:
     - seb@debian.org
@@ -110,20 +85,6 @@
   visiblename: tmuxp
   version: 1.55.0
   origversion: 1.55.0-1
-  status: outdated
-  maintainers:
-    - seb@debian.org
-  categories:
-    - misc
-- repo: debian_14
-  subrepo: forky/main
-  srcname: tmuxp
-  binnames:
-    - tmuxp
-    - python3-tmuxp
-  visiblename: tmuxp
-  version: 1.74.0
-  origversion: 1.74.0-1
   status: outdated
   maintainers:
     - seb@debian.org
@@ -287,9 +248,9 @@
   binnames:
     - python3-tmuxp
   visiblename: python-tmuxp
-  version: 1.74.0
-  origversion: 1.74.0-2.fc45
-  status: outdated
+  version: 1.76.0
+  origversion: 1.76.0-2.fc46
+  status: newest
   summary: Tmux session manager
   licenses:
     - MIT
@@ -307,6 +268,13 @@
     - sunpoet@freebsd.org
   categories:
     - sysutils
+- repo: homebrew
+  srcname: tmuxp
+  visiblename: tmuxp
+  version: 1.76.0
+  origversion: null
+  status: newest
+  summary: Tmux session manager. Built on libtmux
 - repo: gentoo
   srcname: app-misc/tmuxp
   visiblename: app-misc/tmuxp
@@ -450,27 +418,6 @@
     - MIT
   categories:
     - app-misc
-- repo: homebrew
-  srcname: tmuxp
-  visiblename: tmuxp
-  version: 1.76.0
-  origversion: null
-  status: newest
-  summary: Tmux session manager. Built on libtmux
-- repo: kali_rolling
-  subrepo: main
-  srcname: tmuxp
-  binnames:
-    - tmuxp
-    - python3-tmuxp
-  visiblename: tmuxp
-  version: 1.74.0
-  origversion: 1.74.0-1
-  status: outdated
-  maintainers:
-    - seb@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: app-misc/tmuxp
   visiblename: app-misc/tmuxp
@@ -708,17 +655,22 @@
     - MIT
   categories:
     - python
-- repo: nix_unstable
-  srcname: tmuxp
-  visiblename: tmuxp
-  version: 1.76.0
+- repo: macports
+  srcname: python/py-tmuxp
+  binname: py310-tmuxp
+  visiblename: py310-tmuxp
+  version: 1.74.0
   origversion: null
-  status: newest
-  summary: tmux session manager
+  status: outdated
+  summary: tmux session manager.
   maintainers:
-    - otavio.salvador@ossystems.com.br
+    - egorenar@github
+    - judaew@macports
+    - judaew@github
   licenses:
     - MIT
+  categories:
+    - python
 - repo: macports
   srcname: python/py-tmuxp
   binname: py311-tmuxp
@@ -753,22 +705,6 @@
     - python
 - repo: macports
   srcname: python/py-tmuxp
-  binname: py310-tmuxp
-  visiblename: py310-tmuxp
-  version: 1.74.0
-  origversion: null
-  status: outdated
-  summary: tmux session manager.
-  maintainers:
-    - egorenar@github
-    - judaew@macports
-    - judaew@github
-  licenses:
-    - MIT
-  categories:
-    - python
-- repo: macports
-  srcname: python/py-tmuxp
   binname: py313-tmuxp
   visiblename: py313-tmuxp
   version: 1.74.0
@@ -783,6 +719,18 @@
     - MIT
   categories:
     - python
+- repo: pkgsrc_2026_3
+  srcname: misc/tmuxp
+  binname: tmuxp
+  visiblename: misc/tmuxp
+  version: 1.74.0
+  origversion: null
+  status: outdated
+  summary: Session manager for tmux (meta package)
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - misc
 - repo: macports
   srcname: python/py-tmuxp
   binname: py314-tmuxp
@@ -887,6 +835,17 @@
     - otavio.salvador@ossystems.com.br
   licenses:
     - MIT
+- repo: nix_unstable
+  srcname: tmuxp
+  visiblename: tmuxp
+  version: 1.76.0
+  origversion: null
+  status: newest
+  summary: tmux session manager
+  maintainers:
+    - otavio.salvador@ossystems.com.br
+  licenses:
+    - MIT
 - repo: openpkg_current
   srcname: tmuxp
   visiblename: tmuxp
@@ -898,6 +857,59 @@
     - BSD
   categories:
     - Terminal
+- repo: parabola
+  subrepo: extra
+  srcname: tmuxp
+  binname: tmuxp
+  visiblename: tmuxp
+  version: 1.76.0
+  origversion: 1.76.0-1
+  status: newest
+  summary: Tmux session manager built on libtmux
+  licenses:
+    - MIT
+- repo: pardus_21
+  subrepo: main
+  srcname: tmuxp
+  binnames:
+    - tmuxp
+    - python3-tmuxp
+  visiblename: tmuxp
+  version: 1.7.0
+  origversion: 1.7.0-1
+  status: outdated
+  maintainers:
+    - seb@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: tmuxp
+  binnames:
+    - tmuxp
+    - python3-tmuxp
+  visiblename: tmuxp
+  version: 1.55.0
+  origversion: 1.55.0-1
+  status: outdated
+  maintainers:
+    - seb@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: tmuxp
+  binnames:
+    - tmuxp
+    - python3-tmuxp
+  visiblename: tmuxp
+  version: 1.55.0
+  origversion: 1.55.0-1
+  status: outdated
+  maintainers:
+    - seb@debian.org
+  categories:
+    - misc
 - repo: pkgsrc_2026_2
   srcname: misc/py-tmuxp
   binname: py313-tmuxp
@@ -930,18 +942,6 @@
   origversion: null
   status: outdated
   summary: Session manager for tmux
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - misc
-- repo: pkgsrc_2026_3
-  srcname: misc/tmuxp
-  binname: tmuxp
-  visiblename: misc/tmuxp
-  version: 1.74.0
-  origversion: null
-  status: outdated
-  summary: Session manager for tmux (meta package)
   maintainers:
     - pkgsrc-users@netbsd.org
   categories:
