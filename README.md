@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 2 | 1 | 3 | 1 | 2 | 27 |
-| last60d | 2026-09-03 | 2 | 2 | 4 | 1 | 2 | 47 |
-| 90d | 2026-08-04 | 2 | 4 | 4 | 1 | 2 | 64 |
-| last180d | 2026-05-06 | 10 | 20 | 20 | 7 | 7 | 255 |
-| 360d | 2025-11-07 | 27 | 53 | 23 | 8 | 16 | 692 |
-| last720d | 2024-11-12 | 39 | 73 | 24 | 12 | 29 | 1004 |
+| 30d | 2026-10-04 | 2 | 1 | 3 | 1 | 2 | 27 |
+| last60d | 2026-09-04 | 2 | 2 | 4 | 1 | 2 | 47 |
+| 90d | 2026-08-05 | 2 | 4 | 4 | 1 | 2 | 64 |
+| last180d | 2026-05-07 | 10 | 20 | 20 | 7 | 7 | 255 |
+| 360d | 2025-11-08 | 27 | 53 | 23 | 8 | 16 | 692 |
+| last720d | 2024-11-13 | 39 | 73 | 24 | 12 | 29 | 1004 |
 
 ## Distribution status
 
-Reported by **93** distros on [repology.org](https://repology.org/project/tmuxp). **7** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
+Reported by **93** distros on [repology.org](https://repology.org/project/tmuxp). **8** are ✅ on the latest upstream release, **60** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -77,7 +77,7 @@ Reported by **93** distros on [repology.org](https://repology.org/project/tmuxp)
 | Ubuntu 24.04 LTS | `1.38.0` | ⚠️ outdated |
 | Arch | `1.76.0` | ✅ latest |
 | Homebrew | `1.76.0` | ✅ latest |
-| Fedora rawhide | `1.74.0` | ⚠️ outdated |
+| Fedora rawhide | `1.76.0` | ✅ latest |
 | Nix unstable | `1.76.0` | ✅ latest |
 | Void | `1.47.0` | ⚠️ outdated |
 
@@ -90,4 +90,4 @@ Install metadata for tmuxp lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T07:03:41Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T07:52:42Z._
