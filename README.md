@@ -26,13 +26,13 @@ Total: **26,317** lines of code across **244** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.6 / 10**
+Overall score: **5.4 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 0/19 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **SAST** (0/10) — no SAST tool detected
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## Source
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,594 · **Forks**: 250 · **Open issues**: 394 · **Contributors**: 66
+- **Stars**: 4,595 · **Forks**: 250 · **Open issues**: 394 · **Contributors**: 66
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 2 | 1 | 3 | 1 | 2 | 27 |
-| last60d | 2026-09-05 | 2 | 2 | 4 | 1 | 2 | 47 |
-| 90d | 2026-08-06 | 2 | 4 | 4 | 1 | 2 | 64 |
-| last180d | 2026-05-08 | 10 | 20 | 20 | 7 | 7 | 255 |
-| 360d | 2025-11-09 | 27 | 53 | 23 | 8 | 16 | 692 |
-| last720d | 2024-11-14 | 39 | 73 | 24 | 12 | 29 | 1004 |
+| 30d | 2026-10-06 | 2 | 1 | 3 | 1 | 2 | 27 |
+| last60d | 2026-09-06 | 2 | 2 | 4 | 1 | 2 | 47 |
+| 90d | 2026-08-07 | 2 | 4 | 4 | 1 | 2 | 64 |
+| last180d | 2026-05-09 | 10 | 20 | 20 | 7 | 7 | 255 |
+| 360d | 2025-11-10 | 27 | 53 | 23 | 8 | 16 | 692 |
+| last720d | 2024-11-15 | 39 | 73 | 24 | 12 | 29 | 1004 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for tmuxp lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:19:02Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:34:27Z._
