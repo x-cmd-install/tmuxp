@@ -57,12 +57,29 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 2 | 1 | 3 | 1 | 2 | 27 |
-| last60d | 2026-09-07 | 2 | 2 | 4 | 1 | 2 | 47 |
-| 90d | 2026-08-08 | 2 | 4 | 4 | 1 | 2 | 64 |
-| last180d | 2026-05-10 | 10 | 17 | 18 | 7 | 7 | 255 |
-| 360d | 2025-11-11 | 27 | 53 | 23 | 8 | 16 | 692 |
-| last720d | 2024-11-16 | 39 | 73 | 24 | 12 | 29 | 1004 |
+| 30d | 2026-10-08 | 2 | 1 | 3 | 1 | 2 | 27 |
+| last60d | 2026-09-08 | 2 | 2 | 4 | 1 | 2 | 47 |
+| 90d | 2026-08-09 | 2 | 4 | 4 | 1 | 2 | 64 |
+| last180d | 2026-05-11 | 9 | 17 | 18 | 7 | 7 | 255 |
+| 360d | 2025-11-12 | 27 | 53 | 23 | 8 | 16 | 692 |
+| last720d | 2024-11-17 | 39 | 73 | 24 | 12 | 29 | 1004 |
+
+## Distribution status
+
+Reported by **93** distros on [repology.org](https://repology.org/project/tmuxp). **10** are ✅ on the latest upstream release, **58** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.74.0` | ⚠️ outdated |
+| Debian 14 | `1.74.0` | ⚠️ outdated |
+| Debian 13 | `1.55.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.62.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.38.0` | ⚠️ outdated |
+| Arch | `1.76.0` | ✅ latest |
+| Homebrew | `1.76.0` | ✅ latest |
+| Fedora rawhide | `1.76.0` | ✅ latest |
+| Nix unstable | `1.76.0` | ✅ latest |
+| Void | `1.47.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -73,4 +90,4 @@ Install metadata for tmuxp lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:37:13Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T07:04:28Z._
