@@ -14,15 +14,15 @@ x install tmuxp
 
 ## Code insight
 
-Total: **26,317** lines of code across **244** files in the top 5 languages.
+Total: **28,517** lines of code across **260** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 22,582 | 615 | 4,408 | 140 |
-| Yaml | 2,434 | 24 | 413 | 73 |
+| Python | 22,587 | 616 | 4,408 | 140 |
+| Yaml | 2,433 | 24 | 413 | 73 |
+| Css | 1,450 | 61 | 181 | 2 |
 | Json | 706 | 0 | 0 | 23 |
-| Toml | 327 | 31 | 25 | 7 |
-| Svg | 214 | 1 | 1 | 1 |
+| Svg | 528 | 4 | 2 | 22 |
 
 ## OpenSSF Scorecard
 
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.76.0` (2026-10-24)
-- **Last commit**: 2026-10-25
+- **Last commit**: 2026-11-08
 
 ## Popularity
 
-- **Stars**: 4,595 · **Forks**: 250 · **Open issues**: 394 · **Contributors**: 66
+- **Stars**: 4,595 · **Forks**: 250 · **Open issues**: 395 · **Contributors**: 66
 
 ## Totals (cumulative)
 
-- **Releases**: 216 · **Merged PRs**: 453 · **Open PRs**: 29 · **Closed issues**: 281 · **Open issues**: 113 · **Commits**: 5098
+- **Releases**: 216 · **Merged PRs**: 458 · **Open PRs**: 28 · **Closed issues**: 282 · **Open issues**: 113 · **Commits**: 5121
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 2 | 1 | 3 | 1 | 2 | 27 |
-| last60d | 2026-09-08 | 2 | 2 | 4 | 1 | 2 | 47 |
-| 90d | 2026-08-09 | 2 | 4 | 4 | 1 | 2 | 64 |
-| last180d | 2026-05-11 | 9 | 17 | 18 | 7 | 7 | 255 |
-| 360d | 2025-11-12 | 27 | 53 | 23 | 8 | 16 | 692 |
-| last720d | 2024-11-17 | 39 | 73 | 24 | 12 | 29 | 1004 |
+| 30d | 2026-10-09 | 2 | 6 | 2 | 2 | 2 | 40 |
+| last60d | 2026-09-09 | 2 | 7 | 3 | 2 | 2 | 59 |
+| 90d | 2026-08-10 | 2 | 9 | 3 | 2 | 2 | 77 |
+| last180d | 2026-05-12 | 9 | 22 | 17 | 8 | 7 | 269 |
+| 360d | 2025-11-13 | 27 | 58 | 22 | 9 | 16 | 708 |
+| last720d | 2024-11-18 | 39 | 78 | 23 | 13 | 29 | 1025 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for tmuxp lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T07:04:28Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:52:42Z._
