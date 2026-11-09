@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 216 · **Merged PRs**: 458 · **Open PRs**: 28 · **Closed issues**: 282 · **Open issues**: 113 · **Commits**: 5121
+- **Releases**: 216 · **Merged PRs**: 458 · **Open PRs**: 28 · **Closed issues**: 282 · **Open issues**: 113 · **Commits**: 5122
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 2 | 6 | 2 | 2 | 2 | 40 |
-| last60d | 2026-09-09 | 2 | 7 | 3 | 2 | 2 | 59 |
-| 90d | 2026-08-10 | 2 | 9 | 3 | 2 | 2 | 77 |
-| last180d | 2026-05-12 | 9 | 22 | 17 | 8 | 7 | 269 |
-| 360d | 2025-11-13 | 27 | 58 | 22 | 9 | 16 | 708 |
-| last720d | 2024-11-18 | 39 | 78 | 23 | 13 | 29 | 1025 |
+| 30d | 2026-10-10 | 2 | 6 | 2 | 2 | 2 | 41 |
+| last60d | 2026-09-10 | 2 | 7 | 3 | 2 | 2 | 60 |
+| 90d | 2026-08-11 | 2 | 9 | 3 | 2 | 2 | 78 |
+| last180d | 2026-05-13 | 9 | 22 | 17 | 8 | 7 | 270 |
+| 360d | 2025-11-14 | 27 | 58 | 22 | 9 | 16 | 709 |
+| last720d | 2024-11-19 | 39 | 78 | 23 | 13 | 29 | 1026 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for tmuxp lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:52:42Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T07:25:36Z._
