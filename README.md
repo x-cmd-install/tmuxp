@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,595 · **Forks**: 250 · **Open issues**: 395 · **Contributors**: 66
+- **Stars**: 4,596 · **Forks**: 250 · **Open issues**: 395 · **Contributors**: 66
 
 ## Totals (cumulative)
 
@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 2 | 6 | 2 | 2 | 2 | 41 |
-| last60d | 2026-09-10 | 2 | 7 | 3 | 2 | 2 | 60 |
-| 90d | 2026-08-11 | 2 | 9 | 3 | 2 | 2 | 78 |
-| last180d | 2026-05-13 | 9 | 22 | 17 | 8 | 7 | 270 |
-| 360d | 2025-11-14 | 27 | 58 | 22 | 9 | 16 | 709 |
-| last720d | 2024-11-19 | 39 | 78 | 23 | 13 | 29 | 1026 |
+| 30d | 2026-10-11 | 2 | 6 | 2 | 2 | 2 | 41 |
+| last60d | 2026-09-11 | 2 | 7 | 3 | 2 | 2 | 60 |
+| 90d | 2026-08-12 | 2 | 9 | 3 | 2 | 2 | 78 |
+| last180d | 2026-05-14 | 9 | 22 | 17 | 8 | 7 | 270 |
+| 360d | 2025-11-15 | 27 | 58 | 22 | 9 | 16 | 709 |
+| last720d | 2024-11-20 | 39 | 78 | 23 | 13 | 29 | 1026 |
 
 ## Distribution status
 
-Reported by **93** distros on [repology.org](https://repology.org/project/tmuxp). **10** are ✅ on the latest upstream release, **58** are ⚠️ on an older version.
+Reported by **93** distros on [repology.org](https://repology.org/project/tmuxp). **11** are ✅ on the latest upstream release, **57** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for tmuxp lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T07:25:36Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T08:36:26Z._
