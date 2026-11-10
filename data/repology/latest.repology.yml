@@ -246,9 +246,9 @@
   srcname: sysutils/py-tmuxp
   binname: py312-tmuxp
   visiblename: sysutils/py-tmuxp
-  version: 1.74.0
+  version: 1.76.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Session manager for tmux
   maintainers:
     - sunpoet@freebsd.org
@@ -293,6 +293,17 @@
     - MIT
   categories:
     - app-misc
+- repo: nix_stable_24_05
+  srcname: tmuxp
+  visiblename: tmuxp
+  version: 1.47.0
+  origversion: null
+  status: outdated
+  summary: tmux session manager
+  maintainers:
+    - otavio.salvador@ossystems.com.br
+  licenses:
+    - MIT
 - repo: gentoo
   srcname: app-misc/tmuxp
   visiblename: app-misc/tmuxp
@@ -319,6 +330,21 @@
     - MIT
   categories:
     - app-misc
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: tmuxp
+  binnames:
+    - python-tmuxp
+    - python3-tmuxp
+    - tmuxp
+  visiblename: tmuxp
+  version: 1.5.0a
+  origversion: 1.5.0a-1
+  status: outdated
+  maintainers:
+    - seb@debian.org
+  categories:
+    - utils
 - repo: gentoo
   srcname: app-misc/tmuxp
   visiblename: app-misc/tmuxp
@@ -655,33 +681,6 @@
     - MIT
   categories:
     - python
-- repo: nix_unstable
-  srcname: tmuxp
-  visiblename: tmuxp
-  version: 1.76.0
-  origversion: null
-  status: newest
-  summary: tmux session manager
-  maintainers:
-    - otavio.salvador@ossystems.com.br
-  licenses:
-    - MIT
-- repo: macports
-  srcname: python/py-tmuxp
-  binname: py310-tmuxp
-  visiblename: py310-tmuxp
-  version: 1.74.0
-  origversion: null
-  status: outdated
-  summary: tmux session manager.
-  maintainers:
-    - egorenar@github
-    - judaew@macports
-    - judaew@github
-  licenses:
-    - MIT
-  categories:
-    - python
 - repo: macports
   srcname: python/py-tmuxp
   binname: py311-tmuxp
@@ -700,8 +699,8 @@
     - python
 - repo: macports
   srcname: python/py-tmuxp
-  binname: py312-tmuxp
-  visiblename: py312-tmuxp
+  binname: py313-tmuxp
+  visiblename: py313-tmuxp
   version: 1.74.0
   origversion: null
   status: outdated
@@ -716,8 +715,24 @@
     - python
 - repo: macports
   srcname: python/py-tmuxp
-  binname: py313-tmuxp
-  visiblename: py313-tmuxp
+  binname: py310-tmuxp
+  visiblename: py310-tmuxp
+  version: 1.74.0
+  origversion: null
+  status: outdated
+  summary: tmux session manager.
+  maintainers:
+    - egorenar@github
+    - judaew@macports
+    - judaew@github
+  licenses:
+    - MIT
+  categories:
+    - python
+- repo: macports
+  srcname: python/py-tmuxp
+  binname: py312-tmuxp
+  visiblename: py312-tmuxp
   version: 1.74.0
   origversion: null
   status: outdated
@@ -779,17 +794,6 @@
   summary: Tmux session manager built on libtmux
   licenses:
     - MIT
-- repo: nix_stable_24_05
-  srcname: tmuxp
-  visiblename: tmuxp
-  version: 1.47.0
-  origversion: null
-  status: outdated
-  summary: tmux session manager
-  maintainers:
-    - otavio.salvador@ossystems.com.br
-  licenses:
-    - MIT
 - repo: nix_stable_24_11
   srcname: tmuxp
   visiblename: tmuxp
@@ -834,6 +838,17 @@
     - otavio.salvador@ossystems.com.br
   licenses:
     - MIT
+- repo: nix_unstable
+  srcname: tmuxp
+  visiblename: tmuxp
+  version: 1.76.0
+  origversion: null
+  status: newest
+  summary: tmux session manager
+  maintainers:
+    - otavio.salvador@ossystems.com.br
+  licenses:
+    - MIT
 - repo: parabola
   subrepo: extra
   srcname: tmuxp
@@ -845,6 +860,48 @@
   summary: Tmux session manager built on libtmux
   licenses:
     - MIT
+- repo: pardus_21
+  subrepo: main
+  srcname: tmuxp
+  binnames:
+    - tmuxp
+    - python3-tmuxp
+  visiblename: tmuxp
+  version: 1.7.0
+  origversion: 1.7.0-1
+  status: outdated
+  maintainers:
+    - seb@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: tmuxp
+  binnames:
+    - tmuxp
+    - python3-tmuxp
+  visiblename: tmuxp
+  version: 1.55.0
+  origversion: 1.55.0-1
+  status: outdated
+  maintainers:
+    - seb@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: tmuxp
+  binnames:
+    - tmuxp
+    - python3-tmuxp
+  visiblename: tmuxp
+  version: 1.55.0
+  origversion: 1.55.0-1
+  status: outdated
+  maintainers:
+    - seb@debian.org
+  categories:
+    - misc
 - repo: pkgsrc_2026_2
   srcname: misc/py-tmuxp
   binname: py313-tmuxp
@@ -917,21 +974,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - misc
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: tmuxp
-  binnames:
-    - python-tmuxp
-    - python3-tmuxp
-    - tmuxp
-  visiblename: tmuxp
-  version: 1.5.0a
-  origversion: 1.5.0a-1
-  status: outdated
-  maintainers:
-    - seb@debian.org
-  categories:
-    - utils
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: tmuxp
@@ -1174,45 +1216,3 @@
     - egorenar-dev@posteo.net
   licenses:
     - MIT
-- repo: pardus_21
-  subrepo: main
-  srcname: tmuxp
-  binnames:
-    - tmuxp
-    - python3-tmuxp
-  visiblename: tmuxp
-  version: 1.7.0
-  origversion: 1.7.0-1
-  status: outdated
-  maintainers:
-    - seb@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: tmuxp
-  binnames:
-    - tmuxp
-    - python3-tmuxp
-  visiblename: tmuxp
-  version: 1.55.0
-  origversion: 1.55.0-1
-  status: outdated
-  maintainers:
-    - seb@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: tmuxp
-  binnames:
-    - tmuxp
-    - python3-tmuxp
-  visiblename: tmuxp
-  version: 1.55.0
-  origversion: 1.55.0-1
-  status: outdated
-  maintainers:
-    - seb@debian.org
-  categories:
-    - misc
