@@ -14,7 +14,7 @@ x install tmuxp
 
 ## Code insight
 
-Total: **28,517** lines of code across **260** files in the top 5 languages.
+Total: **28,529** lines of code across **266** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -22,7 +22,7 @@ Total: **28,517** lines of code across **260** files in the top 5 languages.
 | Yaml | 2,433 | 24 | 413 | 73 |
 | Css | 1,450 | 61 | 181 | 2 |
 | Json | 706 | 0 | 0 | 23 |
-| Svg | 528 | 4 | 2 | 22 |
+| Svg | 540 | 4 | 2 | 28 |
 
 ## OpenSSF Scorecard
 
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.76.0` (2026-10-24)
-- **Last commit**: 2026-11-08
+- **Last commit**: 2026-11-12
 
 ## Popularity
 
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 216 · **Merged PRs**: 458 · **Open PRs**: 28 · **Closed issues**: 282 · **Open issues**: 113 · **Commits**: 5122
+- **Releases**: 216 · **Merged PRs**: 459 · **Open PRs**: 28 · **Closed issues**: 282 · **Open issues**: 113 · **Commits**: 5126
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 2 | 6 | 2 | 2 | 2 | 41 |
-| last60d | 2026-09-12 | 2 | 7 | 3 | 2 | 2 | 60 |
-| 90d | 2026-08-13 | 2 | 9 | 3 | 2 | 2 | 78 |
-| last180d | 2026-05-15 | 9 | 22 | 17 | 8 | 7 | 270 |
-| 360d | 2025-11-16 | 27 | 58 | 22 | 9 | 16 | 709 |
-| last720d | 2024-11-21 | 39 | 78 | 23 | 13 | 29 | 1026 |
+| 30d | 2026-10-13 | 2 | 7 | 2 | 2 | 2 | 44 |
+| last60d | 2026-09-13 | 2 | 8 | 3 | 2 | 2 | 63 |
+| 90d | 2026-08-14 | 2 | 10 | 3 | 2 | 2 | 81 |
+| last180d | 2026-05-16 | 9 | 22 | 17 | 8 | 7 | 273 |
+| 360d | 2025-11-17 | 27 | 59 | 22 | 9 | 16 | 712 |
+| last720d | 2024-11-22 | 39 | 79 | 23 | 13 | 29 | 1030 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for tmuxp lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:33:32Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T08:41:06Z._
