@@ -30,7 +30,7 @@ Overall score: **5.4 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 0/19 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 0/18 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 2 | 6 | 1 | 1 | 0 | 44 |
-| last60d | 2026-09-18 | 2 | 8 | 4 | 2 | 2 | 68 |
-| 90d | 2026-08-19 | 2 | 9 | 4 | 2 | 2 | 82 |
-| last180d | 2026-05-21 | 9 | 22 | 18 | 7 | 7 | 261 |
-| 360d | 2025-11-22 | 27 | 59 | 23 | 9 | 16 | 713 |
-| last720d | 2024-11-27 | 37 | 76 | 24 | 13 | 29 | 1022 |
+| 30d | 2026-10-20 | 2 | 6 | 1 | 1 | 0 | 44 |
+| last60d | 2026-09-20 | 2 | 8 | 4 | 2 | 2 | 68 |
+| 90d | 2026-08-21 | 2 | 9 | 4 | 2 | 2 | 82 |
+| last180d | 2026-05-23 | 9 | 21 | 18 | 7 | 7 | 261 |
+| 360d | 2025-11-24 | 27 | 59 | 23 | 9 | 16 | 713 |
+| last720d | 2024-11-29 | 37 | 76 | 24 | 13 | 29 | 1021 |
 
 ## Distribution status
 
@@ -90,4 +90,4 @@ Install metadata for tmuxp lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T08:35:06Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T09:55:23Z._

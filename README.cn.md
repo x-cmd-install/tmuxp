@@ -30,7 +30,7 @@ x install tmuxp
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 0/19 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 0/18 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
@@ -57,12 +57,12 @@ x install tmuxp
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 2 | 6 | 1 | 1 | 0 | 44 |
-| last60d | 2026-09-18 | 2 | 8 | 4 | 2 | 2 | 68 |
-| 90d | 2026-08-19 | 2 | 9 | 4 | 2 | 2 | 82 |
-| last180d | 2026-05-21 | 9 | 22 | 18 | 7 | 7 | 261 |
-| 360d | 2025-11-22 | 27 | 59 | 23 | 9 | 16 | 713 |
-| last720d | 2024-11-27 | 37 | 76 | 24 | 13 | 29 | 1022 |
+| 30d | 2026-10-20 | 2 | 6 | 1 | 1 | 0 | 44 |
+| last60d | 2026-09-20 | 2 | 8 | 4 | 2 | 2 | 68 |
+| 90d | 2026-08-21 | 2 | 9 | 4 | 2 | 2 | 82 |
+| last180d | 2026-05-23 | 9 | 21 | 18 | 7 | 7 | 261 |
+| 360d | 2025-11-24 | 27 | 59 | 23 | 9 | 16 | 713 |
+| last720d | 2024-11-29 | 37 | 76 | 24 | 13 | 29 | 1021 |
 
 ## 发行版状态
 
@@ -90,4 +90,4 @@ tmuxp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T08:35:07Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T09:55:23Z._
