@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 2 | 6 | 1 | 1 | 0 | 44 |
-| last60d | 2026-09-21 | 2 | 8 | 4 | 2 | 2 | 68 |
-| 90d | 2026-08-22 | 2 | 8 | 4 | 2 | 2 | 82 |
-| last180d | 2026-05-24 | 7 | 21 | 18 | 7 | 7 | 261 |
-| 360d | 2025-11-25 | 27 | 59 | 23 | 9 | 16 | 713 |
-| last720d | 2024-11-30 | 37 | 76 | 24 | 13 | 29 | 1020 |
+| 30d | 2026-10-22 | 2 | 6 | 1 | 1 | 0 | 0 |
+| last60d | 2026-09-22 | 2 | 8 | 4 | 2 | 2 | 0 |
+| 90d | 2026-08-23 | 2 | 8 | 4 | 2 | 2 | 0 |
+| last180d | 2026-05-25 | 7 | 21 | 18 | 7 | 7 | 0 |
+| 360d | 2025-11-26 | 27 | 59 | 23 | 9 | 16 | 0 |
+| last720d | 2024-12-01 | 37 | 76 | 24 | 13 | 29 | 1020 |
 
 ## Distribution status
 
-Reported by **94** distros on [repology.org](https://repology.org/project/tmuxp). **12** are ✅ on the latest upstream release, **57** are ⚠️ on an older version.
+Reported by **93** distros on [repology.org](https://repology.org/project/tmuxp). **12** are ✅ on the latest upstream release, **56** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for tmuxp lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T08:04:29Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:12:30Z._
