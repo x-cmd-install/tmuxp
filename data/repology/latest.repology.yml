@@ -9,30 +9,6 @@
     - otavio.salvador@ossystems.com.br
   licenses:
     - MIT
-- repo: raspbian_testing
-  subrepo: main
-  srcname: tmuxp
-  binnames:
-    - tmuxp
-    - python3-tmuxp
-  visiblename: tmuxp
-  version: 1.74.0
-  origversion: 1.74.0-1
-  status: outdated
-  maintainers:
-    - seb@debian.org
-  categories:
-    - misc
-- repo: slackbuilds
-  srcname: system/tmuxp
-  visiblename: system/tmuxp
-  version: 1.55.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - fourtysixandtwo@sliderr.net
-  categories:
-    - system
 - repo: arch
   subrepo: extra
   srcname: tmuxp
@@ -105,7 +81,7 @@
     - python3-tmuxp
   visiblename: tmuxp
   version: 1.74.0
-  origversion: 1.74.0-1
+  origversion: 1.74.0-2
   status: outdated
   maintainers:
     - seb@debian.org
@@ -208,6 +184,20 @@
     - MIT
   categories:
     - Unspecified
+- repo: raspbian_testing
+  subrepo: main
+  srcname: tmuxp
+  binnames:
+    - tmuxp
+    - python3-tmuxp
+  visiblename: tmuxp
+  version: 1.74.0
+  origversion: 1.74.0-1
+  status: outdated
+  maintainers:
+    - seb@debian.org
+  categories:
+    - misc
 - repo: fedora_42
   subrepo: release
   srcname: python-tmuxp
@@ -329,6 +319,18 @@
     - MIT
   categories:
     - app-misc
+- repo: pkgsrc_2026_3
+  srcname: misc/tmuxp
+  binname: tmuxp
+  visiblename: misc/tmuxp
+  version: 1.74.0
+  origversion: null
+  status: outdated
+  summary: Session manager for tmux (meta package)
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - misc
 - repo: gentoo
   srcname: app-misc/tmuxp
   visiblename: app-misc/tmuxp
@@ -436,7 +438,7 @@
 - repo: homebrew
   srcname: tmuxp
   visiblename: tmuxp
-  version: 1.76.0
+  version: 1.78.0
   origversion: null
   status: outdated
   summary: Tmux session manager. Built on libtmux
@@ -693,8 +695,8 @@
     - python
 - repo: macports
   srcname: python/py-tmuxp
-  binname: py311-tmuxp
-  visiblename: py311-tmuxp
+  binname: py310-tmuxp
+  visiblename: py310-tmuxp
   version: 1.74.0
   origversion: null
   status: outdated
@@ -709,8 +711,8 @@
     - python
 - repo: macports
   srcname: python/py-tmuxp
-  binname: py310-tmuxp
-  visiblename: py310-tmuxp
+  binname: py311-tmuxp
+  visiblename: py311-tmuxp
   version: 1.74.0
   origversion: null
   status: outdated
@@ -741,8 +743,8 @@
     - python
 - repo: macports
   srcname: python/py-tmuxp
-  binname: py314-tmuxp
-  visiblename: py314-tmuxp
+  binname: py313-tmuxp
+  visiblename: py313-tmuxp
   version: 1.74.0
   origversion: null
   status: outdated
@@ -757,8 +759,8 @@
     - python
 - repo: macports
   srcname: python/py-tmuxp
-  binname: py313-tmuxp
-  visiblename: py313-tmuxp
+  binname: py314-tmuxp
+  visiblename: py314-tmuxp
   version: 1.74.0
   origversion: null
   status: outdated
@@ -948,18 +950,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - misc
-- repo: pkgsrc_2026_3
-  srcname: misc/tmuxp
-  binname: tmuxp
-  visiblename: misc/tmuxp
-  version: 1.74.0
-  origversion: null
-  status: outdated
-  summary: Session manager for tmux (meta package)
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - misc
 - repo: pkgsrc_current
   srcname: misc/py-tmuxp
   binname: py314-tmuxp
@@ -1031,7 +1021,7 @@
   srcname: tmuxp
   binname: tmuxp
   visiblename: tmuxp
-  version: 1.78.0
+  version: 1.81.0
   origversion: null
   status: newest
   summary: Session manager for tmux, which allows users to save and load tmux sessions through simple configuration files.
@@ -1063,6 +1053,16 @@
     - seb@debian.org
   categories:
     - misc
+- repo: slackbuilds
+  srcname: system/tmuxp
+  visiblename: system/tmuxp
+  version: 1.55.0
+  origversion: null
+  status: outdated
+  maintainers:
+    - fourtysixandtwo@sliderr.net
+  categories:
+    - system
 - repo: solus
   srcname: tmuxp
   binname: tmuxp

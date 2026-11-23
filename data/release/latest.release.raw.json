@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/tmux-python/tmuxp/releases/454117268",
-  "assets_url": "https://api.github.com/repos/tmux-python/tmuxp/releases/454117268/assets",
-  "upload_url": "https://uploads.github.com/repos/tmux-python/tmuxp/releases/454117268/assets{?name,label}",
-  "html_url": "https://github.com/tmux-python/tmuxp/releases/tag/v1.78.0",
-  "id": 454117268,
+  "url": "https://api.github.com/repos/tmux-python/tmuxp/releases/454890444",
+  "assets_url": "https://api.github.com/repos/tmux-python/tmuxp/releases/454890444/assets",
+  "upload_url": "https://uploads.github.com/repos/tmux-python/tmuxp/releases/454890444/assets{?name,label}",
+  "html_url": "https://github.com/tmux-python/tmuxp/releases/tag/v1.81.0",
+  "id": 454890444,
   "author": {
     "login": "tony",
     "id": 26336,
@@ -25,21 +25,33 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOAL0uWs4bEUeU",
-  "tag_name": "v1.78.0",
+  "node_id": "RE_kwDOAL0uWs4bHRPM",
+  "tag_name": "v1.81.0",
   "target_commitish": "master",
-  "name": "v1.78.0 - libtmux 0.64.0",
+  "name": "v1.81.0 - libtmux 0.67.1",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-11-22T01:38:25Z",
-  "updated_at": "2026-11-22T01:38:48Z",
-  "published_at": "2026-11-22T01:38:48Z",
+  "created_at": "2026-11-23T01:30:52Z",
+  "updated_at": "2026-11-23T01:31:09Z",
+  "published_at": "2026-11-23T01:31:09Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/tmux-python/tmuxp/tarball/v1.78.0",
-  "zipball_url": "https://api.github.com/repos/tmux-python/tmuxp/zipball/v1.78.0",
-  "body": "tmuxp 1.78.0 updates libtmux to 0.64.0, a fixes-only release. It has no breaking changes.\n\n## Highlights\n\n### libtmux 0.64.0\n\ntmuxp now requires libtmux `~=0.64.0` (was `~=0.63.0`). [libtmux 0.64.0](https://github.com/tmux-python/libtmux/releases/tag/v0.64.0) makes commands act on the session, window or pane they were called on, passes values that start with `-` or end in `;` to tmux as data, and keeps a newline in a pane's path from breaking listings.\n\n\n## What's Changed\n* libtmux 0.64.0 by @tony in https://github.com/tmux-python/tmuxp/pull/1106\n\n\n**Full Changelog**: https://github.com/tmux-python/tmuxp/compare/v1.77.0...v1.78.0",
+  "tarball_url": "https://api.github.com/repos/tmux-python/tmuxp/tarball/v1.81.0",
+  "zipball_url": "https://api.github.com/repos/tmux-python/tmuxp/zipball/v1.81.0",
+  "body": "tmuxp 1.81.0 updates libtmux to 0.67.1. A `#` in a workspace's `session_name`, a `window_name` or a `start_directory` now reaches tmux as typed, so `window_name: \"#S\"` names the window `#S` instead of the session's name.\n\n## Highlights\n\n### `#` in workspace names and start directories is kept as typed\n\nA `#` in a workspace's `session_name`, a `window_name` or a `start_directory` reaches tmux as typed, so `window_name: build#2` names the window `build#2` and `window_name: \"#S\"` names it `#S`. tmux used to expand these values as formats, so `#S` became the session name. A workspace file that relied on that expansion now gets the literal text.\n\n### libtmux 0.67.1\n\ntmuxp now requires libtmux `~=0.67.1` (was `~=0.66.0`). [libtmux 0.67.0](https://github.com/tmux-python/libtmux/releases/tag/v0.67.0) keeps names, titles, start directories and buffer paths as typed and adds `libtmux.Format` to ask tmux to expand one value; [libtmux 0.67.1](https://github.com/tmux-python/libtmux/releases/tag/v0.67.1) makes `Session.new_window(select_existing=True)` find a window by its literal name on every tmux.\n\n## What's Changed\n* libtmux 0.67.1 by @tony in https://github.com/tmux-python/tmuxp/pull/1111\n\n\n**Full Changelog**: https://github.com/tmux-python/tmuxp/compare/v1.80.0...v1.81.0",
+  "reactions": {
+    "url": "https://api.github.com/repos/tmux-python/tmuxp/releases/454890444/reactions",
+    "total_count": 1,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 1,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  },
   "mentions_count": 1
 }
