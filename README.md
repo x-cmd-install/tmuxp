@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 7 | 11 | 0 | 2 | 1 | 53 |
-| last60d | 2026-09-24 | 7 | 13 | 3 | 3 | 3 | 89 |
-| 90d | 2026-08-25 | 7 | 13 | 3 | 3 | 3 | 104 |
-| last180d | 2026-05-27 | 12 | 26 | 17 | 8 | 8 | 283 |
-| 360d | 2025-11-28 | 32 | 61 | 22 | 10 | 17 | 701 |
-| last720d | 2024-12-03 | 42 | 81 | 23 | 14 | 30 | 1049 |
+| 30d | 2026-10-25 | 5 | 10 | 0 | 2 | 1 | 53 |
+| last60d | 2026-09-25 | 7 | 13 | 3 | 3 | 3 | 89 |
+| 90d | 2026-08-26 | 7 | 13 | 3 | 3 | 3 | 104 |
+| last180d | 2026-05-28 | 12 | 26 | 17 | 8 | 8 | 283 |
+| 360d | 2025-11-29 | 31 | 60 | 22 | 10 | 17 | 701 |
+| last720d | 2024-12-04 | 42 | 81 | 23 | 14 | 30 | 1049 |
 
 ## Distribution status
 
-Reported by **93** distros on [repology.org](https://repology.org/project/tmuxp). **1** are ✅ on the latest upstream release, **67** are ⚠️ on an older version.
+Reported by **95** distros on [repology.org](https://repology.org/project/tmuxp). **4** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -76,7 +76,7 @@ Reported by **93** distros on [repology.org](https://repology.org/project/tmuxp)
 | Ubuntu 26.04 LTS | `1.62.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.38.0` | ⚠️ outdated |
 | Arch | `1.76.0` | ⚠️ outdated |
-| Homebrew | `1.78.0` | ⚠️ outdated |
+| Homebrew | `1.81.0` | ✅ latest |
 | Fedora rawhide | `1.76.0` | ⚠️ outdated |
 | Nix unstable | `1.76.0` | ⚠️ outdated |
 | Void | `1.47.0` | ⚠️ outdated |
@@ -90,4 +90,4 @@ Install metadata for tmuxp lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T10:26:15Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T11:23:24Z._
