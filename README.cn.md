@@ -26,13 +26,13 @@ x install tmuxp
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5.4 / 10**
+总评分: **5.5 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 0/18 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 0/16 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
 
@@ -42,44 +42,27 @@ x install tmuxp
 
 ## 发布
 
-- **最新版本**: `v1.81.0` (2026-11-23)
-- **最近提交**: 2026-11-23
+- **最新版本**: `v1.82.0` (2026-11-25)
+- **最近提交**: 2026-11-25
 
 ## 流行度
 
-- **Star**: 4,601 · **Fork**: 251 · **开放 issue**: 397 · **贡献者**: 66
+- **Star**: 4,602 · **Fork**: 251 · **开放 issue**: 397 · **贡献者**: 66
 
 ## 累计统计
 
-- **发布数**: 221 · **已合并 PR**: 464 · **开放 PR**: 28 · **已关闭 issue**: 283 · **开放 issue**: 114 · **提交数**: 5163
+- **发布数**: 222 · **已合并 PR**: 465 · **开放 PR**: 28 · **已关闭 issue**: 283 · **开放 issue**: 114 · **提交数**: 5167
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 5 | 10 | 0 | 2 | 1 | 53 |
-| last60d | 2026-09-25 | 7 | 13 | 3 | 3 | 3 | 89 |
-| 90d | 2026-08-26 | 7 | 13 | 3 | 3 | 3 | 104 |
-| last180d | 2026-05-28 | 12 | 26 | 17 | 8 | 8 | 283 |
-| 360d | 2025-11-29 | 31 | 60 | 22 | 10 | 17 | 701 |
-| last720d | 2024-12-04 | 42 | 81 | 23 | 14 | 30 | 1049 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/tmuxp) 上共有 **95** 个发行版报告此项目。**4** 个 ✅ 已是最新上游版本，**64** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.74.0` | ⚠️ outdated |
-| Debian 14 | `1.74.0` | ⚠️ outdated |
-| Debian 13 | `1.55.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.62.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.38.0` | ⚠️ outdated |
-| Arch | `1.76.0` | ⚠️ outdated |
-| Homebrew | `1.81.0` | ✅ latest |
-| Fedora rawhide | `1.76.0` | ⚠️ outdated |
-| Nix unstable | `1.76.0` | ⚠️ outdated |
-| Void | `1.47.0` | ⚠️ outdated |
+| 30d | 2026-10-26 | 6 | 11 | 0 | 2 | 1 | 56 |
+| last60d | 2026-09-26 | 8 | 14 | 3 | 3 | 3 | 92 |
+| 90d | 2026-08-27 | 8 | 14 | 3 | 3 | 3 | 107 |
+| last180d | 2026-05-29 | 13 | 27 | 17 | 8 | 8 | 286 |
+| 360d | 2025-11-30 | 32 | 59 | 22 | 9 | 17 | 704 |
+| last720d | 2024-12-05 | 43 | 82 | 23 | 14 | 30 | 1053 |
 
 ## 改进这些数据
 
@@ -90,4 +73,4 @@ tmuxp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T11:23:25Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T09:25:44Z._

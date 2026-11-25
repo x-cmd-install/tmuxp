@@ -26,13 +26,13 @@ Total: **28,541** lines of code across **266** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.4 / 10**
+Overall score: **5.5 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 0/18 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 0/16 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -42,44 +42,27 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.81.0` (2026-11-23)
-- **Last commit**: 2026-11-23
+- **Latest**: `v1.82.0` (2026-11-25)
+- **Last commit**: 2026-11-25
 
 ## Popularity
 
-- **Stars**: 4,601 · **Forks**: 251 · **Open issues**: 397 · **Contributors**: 66
+- **Stars**: 4,602 · **Forks**: 251 · **Open issues**: 397 · **Contributors**: 66
 
 ## Totals (cumulative)
 
-- **Releases**: 221 · **Merged PRs**: 464 · **Open PRs**: 28 · **Closed issues**: 283 · **Open issues**: 114 · **Commits**: 5163
+- **Releases**: 222 · **Merged PRs**: 465 · **Open PRs**: 28 · **Closed issues**: 283 · **Open issues**: 114 · **Commits**: 5167
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 5 | 10 | 0 | 2 | 1 | 53 |
-| last60d | 2026-09-25 | 7 | 13 | 3 | 3 | 3 | 89 |
-| 90d | 2026-08-26 | 7 | 13 | 3 | 3 | 3 | 104 |
-| last180d | 2026-05-28 | 12 | 26 | 17 | 8 | 8 | 283 |
-| 360d | 2025-11-29 | 31 | 60 | 22 | 10 | 17 | 701 |
-| last720d | 2024-12-04 | 42 | 81 | 23 | 14 | 30 | 1049 |
-
-## Distribution status
-
-Reported by **95** distros on [repology.org](https://repology.org/project/tmuxp). **4** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.74.0` | ⚠️ outdated |
-| Debian 14 | `1.74.0` | ⚠️ outdated |
-| Debian 13 | `1.55.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.62.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.38.0` | ⚠️ outdated |
-| Arch | `1.76.0` | ⚠️ outdated |
-| Homebrew | `1.81.0` | ✅ latest |
-| Fedora rawhide | `1.76.0` | ⚠️ outdated |
-| Nix unstable | `1.76.0` | ⚠️ outdated |
-| Void | `1.47.0` | ⚠️ outdated |
+| 30d | 2026-10-26 | 6 | 11 | 0 | 2 | 1 | 56 |
+| last60d | 2026-09-26 | 8 | 14 | 3 | 3 | 3 | 92 |
+| 90d | 2026-08-27 | 8 | 14 | 3 | 3 | 3 | 107 |
+| last180d | 2026-05-29 | 13 | 27 | 17 | 8 | 8 | 286 |
+| 360d | 2025-11-30 | 32 | 59 | 22 | 9 | 17 | 704 |
+| last720d | 2024-12-05 | 43 | 82 | 23 | 14 | 30 | 1053 |
 
 ## Improve this data
 
@@ -90,4 +73,4 @@ Install metadata for tmuxp lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:23:24Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:25:43Z._
