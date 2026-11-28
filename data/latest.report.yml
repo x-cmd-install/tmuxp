@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.82.0"
   latestRelease: "v1.82.0"
   latestPrerelease: "v1.63.0a0"
-  collectedAt: 2026-11-27T09:14:21Z
+  collectedAt: 2026-11-28T09:07:47Z
 timeline:
   created: 2013-08-27
   lastCommit: 2026-11-25
@@ -20,7 +20,7 @@ popularity:
   fork: 251
   release: 222
   contributor: 66
-  pullRequest: 682
+  pullRequest: 683
   issue: 397
 language:
   Python: 788177
@@ -28,63 +28,63 @@ language:
 totalBytes: 791586
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 6
     mergedPR: 11
-    openPR: 0
+    openPR: 1
     closedIssue: 2
     openIssue: 1
     commit: 56
   last60d:
-    since: 2026-09-28
-    release: 8
-    mergedPR: 14
-    openPR: 2
-    closedIssue: 3
-    openIssue: 3
-    commit: 92
-  last90d:
-    since: 2026-08-29
+    since: 2026-09-29
     release: 8
     mergedPR: 14
     openPR: 3
     closedIssue: 3
     openIssue: 3
+    commit: 92
+  last90d:
+    since: 2026-08-30
+    release: 8
+    mergedPR: 14
+    openPR: 4
+    closedIssue: 3
+    openIssue: 3
     commit: 107
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 13
     mergedPR: 27
-    openPR: 17
+    openPR: 18
     closedIssue: 8
     openIssue: 8
     commit: 286
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 30
     mergedPR: 59
-    openPR: 22
+    openPR: 23
     closedIssue: 9
     openIssue: 17
     commit: 704
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 43
     mergedPR: 82
-    openPR: 23
+    openPR: 24
     closedIssue: 14
     openIssue: 30
-    commit: 1053
+    commit: 1052
 total:
   release: 222
   mergedPR: 465
-  openPR: 28
+  openPR: 29
   closedIssue: 283
   openIssue: 114
   commit: 5167
 ---
 path: /home/runner/.x-repo/github.com/tmux-python/tmuxp
-collectedAt: 2026-11-27T09:14:24Z
+collectedAt: 2026-11-28T09:07:50Z
 loc:
   Python:
     code: 22599
